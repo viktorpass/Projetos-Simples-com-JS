@@ -1,0 +1,29 @@
+body{
+    color: #eedac4;
+    background-color: #2F4F4F;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.container{
+    padding: 40px;
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+    
+}
+#resultado{
+    padding: 40px;
+    font-size: 35px;
+
+}
+#dolar{
+    width: 300px;
+    
+    
+}
+#moeda{
+    width: 80px;
+    
+}
