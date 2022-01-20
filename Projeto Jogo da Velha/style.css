@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 35px;
+
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000 ;
+    display: inline-block;
+    cursor: pointer;
+}
+.o{
+position: relative;
+}
+.o::after{
+    position: absolute;
+    content: "\1F525";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.x{
+    position: relative;
+}
+.x::after{
+        position: absolute;
+        content: "\1F9EF";
+        font-size: 50px;
+        line-height: 100px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+}
+button{
+    margin: 10px;
+    border:3px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: red;
+    height: 35px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: red;
+    
+}
